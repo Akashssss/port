@@ -13,17 +13,19 @@ export default function Projects() {
             {
                 PROJECTS.map((project, index)=>(
                     <div key={index}
-                    className="mb-8 flex flex-wrap lg:justify-center"
+                    className="mb-14 flex flex-wrap lg:justify-center gap-7"
                     >
-                        <motion.div
+                        <motion.div 
                         whileInView={{ opacity:1, y:0 }}
                         initial={{opacity:0, y:-100}}
                         transition={{duration:1}}
                         className="w-full lg:w-1/4">
-                        <img width={150} height={150}
-                        className="mb-6 rounded "
+                         <div className="aspect-video">
+                         <img 
+                        className="mb-6 rounded-xl h-full w-full"
                         src={project.image} alt={project.title} 
                         />
+                         </div>
                         </motion.div>
                         <motion.div
 
