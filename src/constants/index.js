@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/youtube-clone.png";
-import project2 from "../assets/projects/stack-viz.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/vizualize.png";
+import project3 from "../assets/projects/ecommerce.png";
+import project4 from "../assets/projects/blog4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With extensive experience in React, Next.js, Node.js, and MongoDB, my goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -31,6 +31,7 @@ export const PROJECTS = [
     description:
       "A YouTube clone application using React JS and Material UI, featuring direct video playback, stunning video sections, custom categories, and channel pages.",
     technologies: ["React.js", "Material UI", "Rapid API"],
+    link:'https://github.com/Akashssss/youtube-clone-js-mastey-'
   },
   {
     title: "Stack Viz & Sorting Visualizer",
@@ -38,6 +39,7 @@ export const PROJECTS = [
     description:
       "A web application for visualizing sorting algorithms and function signatures using React and D3.",
     technologies: ["React.js", "TailwindCSS", "Node.js", "D3.js"],
+    link:'https://stack-visualizer.vercel.app/'
   },
   {
     title: "Shopdots (Team Project)",
@@ -45,6 +47,7 @@ export const PROJECTS = [
     description:
       "A multi-vendor e-commerce platform where users can become sellers or buyers, featuring a React-based frontend.",
     technologies: ["React.js", "Next.js", "Express.js", "MongoDB"],
+    link:'https://shop-dot-v3-m3z4.vercel.app/'
   },
   {
     title: "MERN Stack Blogging Website",
@@ -52,11 +55,12 @@ export const PROJECTS = [
     description:
       "A fully-featured blogging platform with a modern editor, responsive design, notification system, and comments functionality.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    link:'https://github.com/Akashssss/mern-blog-v1-public-'
   },
 ];
 
 export const CONTACT = {
-  address: "Lajpat nagar , Kanpur, India",
+  address: "Lajpat nagar, Kanpur, India",
   phoneNo: "+91 9696285593",
   email: "akashsingh43457@gmail.com",
 };
