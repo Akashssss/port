@@ -22,7 +22,7 @@ export default function Projects() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 initial={{ opacity: 0, y: -100 }}
                                 transition={{ duration: 1 }}
-                                className="w-full lg:w-1/4">
+                                className="w-full lg:p-0 p-10 lg:w-1/4">
                                 <div className="aspect-video">
                                     <img
                                         className="mb-6 rounded-xl h-full w-full"

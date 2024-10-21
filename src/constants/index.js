@@ -7,6 +7,8 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 
 export const ABOUT_TEXT = `I am a full stack developer specializing in the MERN stack, Next.js, Tailwind CSS, and Bootstrap. With a passion for crafting efficient web applications, I thrive on solving complex problems and delivering exceptional user experiences. I’m constantly seeking to learn and adapt, leveraging my skills to create innovative solutions that drive business success.`;
 
+export const HOBBEY_TEXT = `Outside of coding, I have a keen interest in photography, drawing, and traveling. These creative pursuits inspire my work and help me see the world from different perspectives, enriching both my personal and professional life.` ;
+
 export const EXPERIENCES = [
   {
     year: "2024 - Present",

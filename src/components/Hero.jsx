@@ -1,6 +1,6 @@
 
 import { HERO_CONTENT } from './../constants/index';
-import profilePic from '../assets/kevinRushProfile.png' ; 
+import profilePic from '../assets/profile.png' ; 
 import { motion } from 'framer-motion';
 
 const container =(delay)=>(  
@@ -44,8 +44,8 @@ export default function Hero() {
                     </motion.p>
                 </div>
              </div>
-              <div className='w-full lg:w-1/2 lg:p-8'>
-                 <div className='flex justify-center'>
+              <div className='w-full lg:w-1/2 lg:p-8 pt-0 '>
+                 <div className='flex justify-center w-[90%] h-[90%] lg:-translate-y-10 grayscale'>
                    <motion.img 
                    initial={{x:100,opacity:0}}
                    animate={{x:0, opacity:1}}

@@ -5,7 +5,7 @@ import { FaInstagram} from 'react-icons/fa';
 
 export default function Navbar() {
   return (
-    <nav className=" mb-20  flex items-center justify-between py-6">
+    <nav className=" mb-20  flex items-center justify-between py-6 pb-4">
        <div className="flex flex-shrink-0 items-center">
          <span className="font-bold text-5xl">A<span className='text-5xl font-thin'>k</span></span>
        </div>
