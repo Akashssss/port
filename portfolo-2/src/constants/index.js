@@ -2,7 +2,6 @@ import project1 from "../assets/projects/youtube-clone.png";
 import project2 from "../assets/projects/vizualize.png";
 import project3 from "../assets/projects/ecommerce.png";
 import project4 from "../assets/projects/blog4.png";
-import project0 from "../assets/projects/perfLoad.png" ;
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With extensive experience in React, Next.js, Node.js, and MongoDB, my goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -28,16 +27,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Perf Load",
-    image: project0,
-    description:
-      "Moniter the performance matrices of different machines ( Node clients ) in real time in a scalable manner using Socket io cluster adapter.",
-    technologies: ["React.js","Socket.io" ,"Express.js" , "Node.js"],
-    link:'https://github.com/Akashssss/Perf-Load'
-
-  },
-
   {
     title: "Youtube Clone",
     image: project1,
@@ -70,7 +59,6 @@ export const PROJECTS = [
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
     link:'https://github.com/Akashssss/mern-blog-v1-public-'
   },
- 
 ];
 
 export const CONTACT = {
